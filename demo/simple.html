@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Markdownify</title>
+    <meta charset="utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/marijnh/CodeMirror/master/lib/codemirror.js"></script>
+    <script src="https://rawgit.com/marijnh/CodeMirror/master/addon/edit/continuelist.js"></script>
+    <script src='https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.ui.widget.js' type='text/javascript'></script>
+    <script src='https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.iframe-transport.js' type='text/javascript'></script>
+    <script src='https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.fileupload.js' type='text/javascript'></script>
+    <script src='https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src='https://rawgit.com/chjj/marked/master/lib/marked.js' type='text/javascript'></script>
+    <script src="https://rawgit.com/marijnh/CodeMirror/master/mode/xml/xml.js"></script>
+    <script src="https://rawgit.com/marijnh/CodeMirror/master/mode/markdown/markdown.js"></script>
+    <link rel='stylesheet' href="https://rawgit.com/marijnh/CodeMirror/master/lib/codemirror.css"></link>
+
+    <script src="../lib/jquery.markdownify.js"></script>
+    <link rel="stylesheet" href="../lib/jquery.markdownify.css"></link>
+    <script>
+    $(function () {
+      $('.markdown').markdownify();
+    })
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <textarea class='markdown' id="markdown"># Hello world</textarea>
+    </form>
+  </body>
+</html>
