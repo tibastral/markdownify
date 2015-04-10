@@ -37,3 +37,5 @@ To upload an image directly to cloudinary, you can add add a param to markdownif
         unsignedUploadingKey: 'YOUR_UNSIGNED_UPLOADING_KEY'
       }
     );
+
+The code is extracted from [mipise.com](https://mipise.com) and extensively used in [jobboardmaker.com](https://jobboardmaker.com)
