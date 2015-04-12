@@ -4,14 +4,16 @@ The simplest markdown editor with built in cloudinary image upload.
 
 Based on CodeMirror for the editor and Marked for the preview.
 
+# Demo:
 
+[tibastral.github.io/markdownify](http://tibastral.github.io/markdownify/)
+
+# Usage:
 Lets say you have a textarea you want to markdownify.
 
 ```html
 <textarea class='markdown' id="markdown"></textarea>
 ```
-
-usage :
 
 ```js
 $('.markdown').markdownify();
