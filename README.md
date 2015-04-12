@@ -47,4 +47,25 @@ $('.markdown').markdownify(
 );
 ```
 
+# Options
+If you want the preview toggle, add this after your markdown editor HTML:
+
+```html
+<div class='markdown-preview'></div>
+<a class='btn--preview' href='javascript:void(0)' data-target='markdown'>preview</a>
+```
+T
+If you want the edit/preview button text to be different, modify the following:
+
+_Change Edit button text:_
+Add the following attribute to the preview button:
+```html
+data-toggle-text='edit-non-default-text'
+```
+_Change Preview button text:_
+Modify the default text that's within the <a> tag:
+```html
+<a class='btn--preview' href='javascript:void(0)' data-target='markdown'>edit me here</a>
+```
+
 The code is extracted from [mipise.com](https://mipise.com) and extensively used in [jobboardmaker.com](https://jobboardmaker.com)
