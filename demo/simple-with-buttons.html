@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="../lib/jquery.markdownify.css"></link>
     <script>
     $(function () {
-      $('.markdown').markdownify();
+      new markdownify({
+        selector: '.markdown'
+      });
     })
     </script>
   </head>

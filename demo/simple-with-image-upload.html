@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="../lib/jquery.markdownify.css"></link>
     <script>
     $(function () {
-      $('.markdown').markdownify({
+      new markdownify({
+        selector: '.markdown',
         cloudinary: {
           // create an account on cloudinary and put here your cloud name
           cloudName: 'YOUR_CLOUD_NAME',
