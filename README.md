@@ -11,6 +11,12 @@ Based on CodeMirror for the editor and Marked for the preview.
 # Usage:
 Lets say you have a textarea you want to markdownify.
 
+# Install with bower:
+
+```sh
+bower install jquery.markdownify
+```
+
 ```html
 <textarea class='markdown' id="markdown"></textarea>
 ```
