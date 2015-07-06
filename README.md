@@ -62,7 +62,7 @@ If you want the preview toggle, add this after your markdown editor HTML:
 <div class='markdown-preview'></div>
 <a class='btn--preview' href='javascript:void(0)' data-target='markdown'>preview</a>
 ```
-T
+
 If you want the edit/preview button text to be different, modify the following:
 
 _Change Edit button text:_
